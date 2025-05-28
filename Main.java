@@ -29,7 +29,7 @@ public class Main {
 
                 if (choice < 1 || choice > 5) {
                     System.out.println("Invalid operation. Please choose between 1 and 5.");
-                    continue; // Skip the rest and restart the loop
+                    continue;
                 }
 
                 System.out.print("Enter the first number: ");
